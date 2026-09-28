@@ -4,6 +4,8 @@
 
 ## 실행
 
+**[브라우저에서 바로 실행](https://wwonnn.github.io/after-hours-maple/)**
+
 이 저장소를 내려받은 뒤 `AfterHoursMaple/Play.cmd`를 실행하세요. Python 3와 Chrome 또는 Edge가 필요합니다. 이미 생성된 웹 빌드가 `AfterHoursMaple/Builds/Web/`에 포함돼 있어 Unity 설치 없이 실행할 수 있습니다.
 
 Unity에서 수정하려면 **6000.0.74f1 + Web Build Support**로 `AfterHoursMaple` 폴더를 열어주세요.
@@ -14,9 +16,9 @@ Unity에서 수정하려면 **6000.0.74f1 + Web Build Support**로 `AfterHoursMa
 
 ## GitHub Pages
 
-Pages 배포용 워크플로가 포함되어 있습니다. Settings → Pages → Source를 **GitHub Actions**로 설정한 뒤 Actions → **Deploy Unity Web to Pages** → Run workflow로 배포합니다. 사이트에는 `AfterHoursMaple/Builds/Web`의 웹 실행 파일만 배포합니다.
+GitHub Actions로 배포되어 있습니다. 웹 빌드를 갱신한 뒤 Actions → **Deploy Unity Web to Pages** → Run workflow로 다시 배포합니다. 사이트에는 `AfterHoursMaple/Builds/Web`의 웹 실행 파일만 배포합니다.
 
-비공개 저장소에서 Pages를 사용하려면 해당 기능을 지원하는 GitHub 요금제가 필요합니다. 저장소가 비공개여도 일반 GitHub Pages 사이트는 공개됩니다. 실제 배포 상태는 저장소 Settings → Pages에서 확인하세요.
+이 저장소와 게임 사이트는 공개입니다. 실제 배포 상태는 저장소 Settings → Pages와 Actions에서 확인하세요.
 
 ## 현재 범위
 
