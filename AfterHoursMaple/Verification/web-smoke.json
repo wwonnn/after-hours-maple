@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-27T16:14:50.842Z",
+  "engine": "Unity 6000.0.74f1",
+  "checks": [
+    "new game starts in Kerning City",
+    "walk to original shop doorway enters original interior",
+    "NPC reached using original interior footholds",
+    "original NPC present during encounter",
+    "transparent overlay preserves the Unity map",
+    "cigarette burns through real input",
+    "smoke viewport tracks letterboxed Unity canvas",
+    "encounter ends at exactly the same player coordinates",
+    "first encounter creates a contact",
+    "contact and exact location survive reload",
+    "revisit remembers the quiet dialogue choice",
+    "no browser runtime exceptions",
+    "no missing network resources"
+  ],
+  "errors": [],
+  "badResponses": []
+}

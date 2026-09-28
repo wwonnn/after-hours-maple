@@ -1,0 +1,10 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const root = __dirname;
+const template = fs.readFileSync(path.join(root, 'smoking-simulator.template.html'), 'utf8');
+const source = fs.readFileSync(path.join(root, 'smoking-simulator.js'), 'utf8');
+const sample = fs.readFileSync(path.join(root, 'assets/smoking/cigarette-inhale-kczub.mp3')).toString('base64');
+const script = source.replace('__INHALE_AUDIO_BASE64__', sample);
+if (script.includes('</script>')) throw new Error('Unsafe closing script tag');
+fs.writeFileSync(path.join(root, 'smoking-simulator.html'), template.replace('<!-- SIMULATOR_SCRIPT -->', () => '<script>\n' + script + '\n</script>'));
+console.log('Built standalone smoking-simulator.html with embedded CC0 inhale recording.');

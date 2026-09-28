@@ -1,0 +1,148 @@
+[
+  {
+    "url": "https://maplestory.io/api/GMS/95/map/100000000/render/0?showBackgrounds=true",
+    "bytes": 2190204,
+    "contentType": "image/png",
+    "file": "maps/henesys.png",
+    "width": 5967,
+    "height": 1102,
+    "frames": 1,
+    "sha256": "6c16aaa911b8c8a9639a18f64c801f74e9b12f7aae3865f3517e77e3b0368207"
+  },
+  {
+    "url": "https://maplestory.io/api/GMS/83/map/100000000/bgm",
+    "bytes": 1376310,
+    "contentType": "audio/mpeg",
+    "file": "bgm/henesys.mp3",
+    "transformation": "Removed 82-byte WZ sound prefix; MPEG audio frames unchanged.",
+    "durationSeconds": 137.613,
+    "audioFrames": 5268,
+    "sampleRate": 22050,
+    "trailingBytes": 179,
+    "sha256": "92268d2fd2884b22f682cb43ff5f77fa26d1137853dba8b2e94c761f35cb1fd1"
+  },
+  {
+    "url": "https://maplestory.io/api/GMS/95/map/101000000/render/0?showBackgrounds=true",
+    "bytes": 75762,
+    "contentType": "image/png",
+    "file": "maps/ellinia.png",
+    "width": 1609,
+    "height": 2770,
+    "frames": 1,
+    "sha256": "3bf75794967a013c3a4036980e532acdb5754ad3e30fad0b53ae4bc78ce8e271"
+  },
+  {
+    "url": "https://maplestory.io/api/GMS/83/map/101000000/bgm",
+    "bytes": 1877339,
+    "contentType": "audio/mpeg",
+    "file": "bgm/ellinia.mp3",
+    "transformation": "Removed 82-byte WZ sound prefix; MPEG audio frames unchanged.",
+    "durationSeconds": 187.716,
+    "audioFrames": 7186,
+    "sampleRate": 22050,
+    "trailingBytes": 180,
+    "sha256": "f65f2572e2501133280c182bd845d99eceb249747a0bbf45c2335eda53979892"
+  },
+  {
+    "url": "https://maplestory.io/api/GMS/95/map/103000000/render/0?showBackgrounds=true",
+    "bytes": 277323,
+    "contentType": "image/png",
+    "file": "maps/kerning-city.png",
+    "width": 3870,
+    "height": 1478,
+    "frames": 1,
+    "sha256": "e570dffea2c8d152a5f636d3dcf7c41086d3bb8661e211a23bbc228254e8abe9"
+  },
+  {
+    "url": "https://maplestory.io/api/GMS/83/map/103000000/bgm",
+    "bytes": 2182971,
+    "contentType": "audio/mpeg",
+    "file": "bgm/kerning-city.mp3",
+    "transformation": "Removed 82-byte WZ sound prefix; MPEG audio frames unchanged.",
+    "durationSeconds": 218.279,
+    "audioFrames": 8356,
+    "sampleRate": 22050,
+    "trailingBytes": 179,
+    "sha256": "e9bf1c8708b044e3082ebf8a0aa0feae431a7ce7dacfbeb6da6c8ae80e56f44a"
+  },
+  {
+    "url": "https://maplestory.io/api/character/%7B%22itemId%22%3A2000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A12000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A20000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A30000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1040002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1060002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1072001%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D/stand1/0",
+    "bytes": 2695,
+    "contentType": "image/png",
+    "file": "characters/beginner-stand.png",
+    "width": 43,
+    "height": 70,
+    "frames": 1,
+    "sha256": "4a3f37c81ec010adbcd25a9e8848f9f5b35ed0fcd0e1f7c17c19221e965b9802"
+  },
+  {
+    "contentType": "image/png",
+    "url": "https://maplestory.io/api/GMS/95/map/100000000/minimap",
+    "file": "maps/henesys-minimap.png",
+    "width": 378,
+    "height": 81,
+    "frames": 1,
+    "bytes": 23948,
+    "sha256": "d51b0c77fdca7bcbf42368f36d4a79b891ec3c99d18baf6f7bae00ba7ef38ac3"
+  },
+  {
+    "contentType": "image/png",
+    "url": "https://maplestory.io/api/GMS/95/map/101000000/minimap",
+    "file": "maps/ellinia-minimap.png",
+    "width": 106,
+    "height": 185,
+    "frames": 1,
+    "bytes": 20361,
+    "sha256": "31d444a755cf96a7e7c503e1881f90a89b7d1d0c82f66d708f832a13d3033613"
+  },
+  {
+    "contentType": "image/png",
+    "url": "https://maplestory.io/api/GMS/95/map/103000000/minimap",
+    "file": "maps/kerning-city-minimap.png",
+    "width": 247,
+    "height": 104,
+    "frames": 1,
+    "bytes": 21197,
+    "sha256": "cf46428117346c613017761a26adf599c2d645c834d939f7bac786e9fd57a7df"
+  },
+  {
+    "contentType": "image/png",
+    "url": "https://maplestory.io/api/character/%7B%22itemId%22%3A2000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A12000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A20000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A30000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1040002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1060002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1072001%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D/walk1/0",
+    "file": "characters/beginner-walk1.png",
+    "width": 43,
+    "height": 70,
+    "frames": 1,
+    "bytes": 2764,
+    "sha256": "9853fbcd28e3f4b00c3017ff17ea0d123d31702d2f2eb49f8c30faec7403287f"
+  },
+  {
+    "contentType": "image/png",
+    "url": "https://maplestory.io/api/character/%7B%22itemId%22%3A2000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A12000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A20000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A30000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1040002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1060002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1072001%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D/jump/0",
+    "file": "characters/beginner-jump.png",
+    "width": 43,
+    "height": 68,
+    "frames": 1,
+    "bytes": 2725,
+    "sha256": "fc81dbd08a75ef8bf6db901b6f3aba7cafa9b4c35a2b811434bcb3bd11cba441"
+  },
+  {
+    "file": "characters/beginner-stand1.gif",
+    "contentType": "image/gif",
+    "url": "https://maplestory.io/api/character/%7B%22itemId%22%3A2000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A12000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A20000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A30000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1040002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1060002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1072001%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D/stand1/animated",
+    "width": 43,
+    "height": 70,
+    "frames": 4,
+    "bytes": 5548,
+    "sha256": "9f6fad5c0b9b3db0a5894d0b4c3384c04a3d3ecd0a357410a9f13ad1ef60fbda"
+  },
+  {
+    "file": "characters/beginner-walk1.gif",
+    "contentType": "image/gif",
+    "url": "https://maplestory.io/api/character/%7B%22itemId%22%3A2000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A12000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A20000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A30000%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1040002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1060002%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D%2C%7B%22itemId%22%3A1072001%2C%22region%22%3A%22GMS%22%2C%22version%22%3A%2283%22%7D/walk1/animated",
+    "width": 43,
+    "height": 71,
+    "frames": 4,
+    "bytes": 5509,
+    "sha256": "1df02bc2ee3b4503436822cba26bb56cabafbece55a63a75055ccf5e36521cb0"
+  }
+]

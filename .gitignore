@@ -1,0 +1,10 @@
+**/__pycache__/
+**/*.log
+AfterHoursMaple/Library/
+AfterHoursMaple/Temp/
+AfterHoursMaple/Obj/
+AfterHoursMaple/Logs/
+AfterHoursMaple/UserSettings/
+AfterHoursMaple/Tools/cache/
+AfterHoursMaple/Builds/*.zip
+.tools/

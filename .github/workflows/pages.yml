@@ -1,0 +1,34 @@
+name: Deploy Unity Web to Pages
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v5
+      - name: Check Web build
+        run: |
+          test -f AfterHoursMaple/Builds/Web/index.html
+          test -f AfterHoursMaple/Builds/Web/Build/Web.wasm
+          test -f AfterHoursMaple/Builds/Web/StreamingAssets/Maple/catalog.json
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: AfterHoursMaple/Builds/Web
+      - name: Deploy
+        id: deployment
+        uses: actions/deploy-pages@v4

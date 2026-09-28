@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.png binary
+*.gif binary
+*.mp3 binary
+*.ttf binary
+*.wasm binary
+*.data binary
+AfterHoursMaple/Builds/Web/** -text
